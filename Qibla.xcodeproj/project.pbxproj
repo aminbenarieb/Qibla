@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC9A0CC01B652C60005D47A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A0CBF1B652C60005D47A4 /* AppDelegate.swift */; };
+		FC9A0CC21B652C60005D47A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A0CC11B652C60005D47A4 /* ViewController.swift */; };
+		FC9A0CC51B652C60005D47A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9A0CC31B652C60005D47A4 /* Main.storyboard */; };
+		FC9A0CCA1B652C60005D47A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9A0CC81B652C60005D47A4 /* LaunchScreen.xib */; };
+		FC9A0CD61B652C60005D47A4 /* QiblaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A0CD51B652C60005D47A4 /* QiblaTests.swift */; };
+		FC9A0CEF1B65401D005D47A4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9A0CEE1B65401D005D47A4 /* MapKit.framework */; };
+		FC9A0CFC1B6696F1005D47A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9A0CFB1B6696F1005D47A4 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC9A0CD01B652C60005D47A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC9A0CB21B652C60005D47A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC9A0CB91B652C60005D47A4;
+			remoteInfo = Qibla;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC9A0CBA1B652C60005D47A4 /* Qibla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qibla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9A0CBE1B652C60005D47A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9A0CBF1B652C60005D47A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC9A0CC11B652C60005D47A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC9A0CC41B652C60005D47A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC9A0CC91B652C60005D47A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC9A0CCF1B652C60005D47A4 /* QiblaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiblaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9A0CD41B652C60005D47A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9A0CD51B652C60005D47A4 /* QiblaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaTests.swift; sourceTree = "<group>"; };
+		FC9A0CEE1B65401D005D47A4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FC9A0CFB1B6696F1005D47A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC9A0CB71B652C60005D47A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9A0CEF1B65401D005D47A4 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9A0CCC1B652C60005D47A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC9A0CB11B652C60005D47A4 = {
+			isa = PBXGroup;
+			children = (
+				FC9A0CBC1B652C60005D47A4 /* Qibla */,
+				FC9A0CD21B652C60005D47A4 /* QiblaTests */,
+				FC9A0CBB1B652C60005D47A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC9A0CBB1B652C60005D47A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC9A0CBA1B652C60005D47A4 /* Qibla.app */,
+				FC9A0CCF1B652C60005D47A4 /* QiblaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC9A0CBC1B652C60005D47A4 /* Qibla */ = {
+			isa = PBXGroup;
+			children = (
+				FC9A0CBF1B652C60005D47A4 /* AppDelegate.swift */,
+				FC9A0CC11B652C60005D47A4 /* ViewController.swift */,
+				FC9A0CC31B652C60005D47A4 /* Main.storyboard */,
+				FC9A0CC81B652C60005D47A4 /* LaunchScreen.xib */,
+				FC9A0CBD1B652C60005D47A4 /* Supporting Files */,
+			);
+			path = Qibla;
+			sourceTree = "<group>";
+		};
+		FC9A0CBD1B652C60005D47A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC9A0CFB1B6696F1005D47A4 /* Images.xcassets */,
+				FC9A0CEE1B65401D005D47A4 /* MapKit.framework */,
+				FC9A0CBE1B652C60005D47A4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC9A0CD21B652C60005D47A4 /* QiblaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC9A0CD51B652C60005D47A4 /* QiblaTests.swift */,
+				FC9A0CD31B652C60005D47A4 /* Supporting Files */,
+			);
+			path = QiblaTests;
+			sourceTree = "<group>";
+		};
+		FC9A0CD31B652C60005D47A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC9A0CD41B652C60005D47A4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC9A0CB91B652C60005D47A4 /* Qibla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9A0CD91B652C60005D47A4 /* Build configuration list for PBXNativeTarget "Qibla" */;
+			buildPhases = (
+				FC9A0CB61B652C60005D47A4 /* Sources */,
+				FC9A0CB71B652C60005D47A4 /* Frameworks */,
+				FC9A0CB81B652C60005D47A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qibla;
+			productName = Qibla;
+			productReference = FC9A0CBA1B652C60005D47A4 /* Qibla.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC9A0CCE1B652C60005D47A4 /* QiblaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9A0CDC1B652C60005D47A4 /* Build configuration list for PBXNativeTarget "QiblaTests" */;
+			buildPhases = (
+				FC9A0CCB1B652C60005D47A4 /* Sources */,
+				FC9A0CCC1B652C60005D47A4 /* Frameworks */,
+				FC9A0CCD1B652C60005D47A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC9A0CD11B652C60005D47A4 /* PBXTargetDependency */,
+			);
+			name = QiblaTests;
+			productName = QiblaTests;
+			productReference = FC9A0CCF1B652C60005D47A4 /* QiblaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC9A0CB21B652C60005D47A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Amin Benarieb";
+				TargetAttributes = {
+					FC9A0CB91B652C60005D47A4 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 5P8935L6RT;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					FC9A0CCE1B652C60005D47A4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FC9A0CB91B652C60005D47A4;
+					};
+				};
+			};
+			buildConfigurationList = FC9A0CB51B652C60005D47A4 /* Build configuration list for PBXProject "Qibla" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC9A0CB11B652C60005D47A4;
+			productRefGroup = FC9A0CBB1B652C60005D47A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC9A0CB91B652C60005D47A4 /* Qibla */,
+				FC9A0CCE1B652C60005D47A4 /* QiblaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC9A0CB81B652C60005D47A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9A0CFC1B6696F1005D47A4 /* Images.xcassets in Resources */,
+				FC9A0CC51B652C60005D47A4 /* Main.storyboard in Resources */,
+				FC9A0CCA1B652C60005D47A4 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9A0CCD1B652C60005D47A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC9A0CB61B652C60005D47A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9A0CC21B652C60005D47A4 /* ViewController.swift in Sources */,
+				FC9A0CC01B652C60005D47A4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9A0CCB1B652C60005D47A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9A0CD61B652C60005D47A4 /* QiblaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC9A0CD11B652C60005D47A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC9A0CB91B652C60005D47A4 /* Qibla */;
+			targetProxy = FC9A0CD01B652C60005D47A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC9A0CC31B652C60005D47A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC9A0CC41B652C60005D47A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC9A0CC81B652C60005D47A4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC9A0CC91B652C60005D47A4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC9A0CD71B652C60005D47A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC9A0CD81B652C60005D47A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC9A0CDA1B652C60005D47A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Qibla",
+				);
+				INFOPLIST_FILE = Qibla/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC9A0CDB1B652C60005D47A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Qibla",
+				);
+				INFOPLIST_FILE = Qibla/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC9A0CDD1B652C60005D47A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QiblaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qibla.app/Qibla";
+			};
+			name = Debug;
+		};
+		FC9A0CDE1B652C60005D47A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QiblaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qibla.app/Qibla";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC9A0CB51B652C60005D47A4 /* Build configuration list for PBXProject "Qibla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9A0CD71B652C60005D47A4 /* Debug */,
+				FC9A0CD81B652C60005D47A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9A0CD91B652C60005D47A4 /* Build configuration list for PBXNativeTarget "Qibla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9A0CDA1B652C60005D47A4 /* Debug */,
+				FC9A0CDB1B652C60005D47A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9A0CDC1B652C60005D47A4 /* Build configuration list for PBXNativeTarget "QiblaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9A0CDD1B652C60005D47A4 /* Debug */,
+				FC9A0CDE1B652C60005D47A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC9A0CB21B652C60005D47A4 /* Project object */;
+}
